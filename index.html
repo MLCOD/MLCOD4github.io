@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepsi Web Landing Page</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <section class="sec">
+        <div class="bg"></div>
+        <header>
+            <a href="#"><img src="./img/logo.png" class="logo" alt=""></a>
+            <div class="toggle"></div>
+            <ul class="navigation">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Pepsi<br><span>I like</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas beatae culpa dicta, accusamus nobis iusto quos placeat ullam assumenda non odit illo. Expedita quo autem asperiores voluptatem corporis dolor distinctio!
+               Enim velit fugit quisquam esse ipsam placeat dolorum assumenda aliquid adipisci magni facere reiciendis harum molestias dolores praesentium repellat nostrum, impedit numquam nobis deserunt minus eum ad exercitationem. Ut, laborum.</p>
+                <a href="#">Products</a>
+            </div>
+            <div class="imgBox">
+                <img src="./img/pepsi001.png" class="pepsi" alt="">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="./img/pepsi001.png" onclick="imgSlider('./img/pepsi001.png');changeBgColor('#0062be')"></a></li>
+            <li><img src="./img/pepsi002.png" onclick="imgSlider('./img/pepsi002.png');changeBgColor('#0BF7A1')"></a></li>
+            <li><img src="./img/pepsi003.png" onclick="imgSlider('./img/pepsi003.png');changeBgColor('#1e1e1e')"></a></li>
+        </ul>
+         <ul class="sci">
+            <li><a href="#"><img src="./img/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="./img/twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="./img/instagram.png" alt=""></a></li>
+         </ul>
+    </section>
+ 
+    <script src="./js/main.js"></script>
+</body>
+</html>
